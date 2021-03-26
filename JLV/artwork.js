@@ -160,5 +160,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/963cfeb2db732c65867a181d4ac3ec1735669eaa8460a5dc8374936ff8803690",
     "Image": "webthecomedian",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Conan",
+    "Link": "https://www.juungle.net/#/assets/bb64b2a258491f3588b99b8de3c3c025574cb0e8eb2a16415cc63a6b52943e70",
+    "Image": "webconan",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Daredevil",
+    "Link": "https://www.juungle.net/#/assets/f5bcf15377631d80edb72727b29062cc5e8bd41fde72b59643bbd4ef8be6358a",
+    "Image": "webdaredevil",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "David",
+    "Link": "https://www.juungle.net/#/assets/136c6231c8f831ff31389d17d5a88cb46a622471daca1044308f9bddc3360f27",
+    "Image": "webdavid",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "David Carradine - Bill",
+    "Link": "https://www.juungle.net/#/assets/28483fd1e551a0ba36f340af9d9b761582e4ea004b7642031b44682f44e9f27b",
+    "Image": "webdavidcarradinebill",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Dick & Ed",
+    "Link": "https://www.juungle.net/#/assets/d260e97142c1fb20cba38cf3a9560e226c555e1519f63e5dabc5751630b1b6ec",
+    "Image": "webdickanded",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Din",
+    "Link": "https://www.juungle.net/#/assets/289a2506a186efc4a3f355f3dae5101c2d4f42d7bafa30f2092cfc691c0bf911",
+    "Image": "webdin",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
