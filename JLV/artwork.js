@@ -196,5 +196,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/289a2506a186efc4a3f355f3dae5101c2d4f42d7bafa30f2092cfc691c0bf911",
     "Image": "webdin",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Doc Holliday",
+    "Link": "https://www.juungle.net/#/assets/46eeedf0a6d5c00a9e86fc4b87f0bdbe0d47334a4800f794740e7c71266cb4cf",
+    "Image": "webdocholliday",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Dodgeball",
+    "Link": "https://www.juungle.net/#/assets/0fc2008da71b7c051bc5eaf877f63b3f67dbe292f9dc79e8a8b0ac68eb004f67",
+    "Image": "webdodgeball",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Dracula",
+    "Link": "https://www.juungle.net/#/assets/c69e488d0200b6491f9579cfa704a9940cfcdc62a1d58c453bb9929bb4e3787c",
+    "Image": "webdracula",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Dr. Strangelove",
+    "Link": "https://www.juungle.net/#/assets/1db9433c57a527feb5a21d395a67ee6ac4294a2bb94af5f0c07e9590f7dea83f",
+    "Image": "webdrstrangelove",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Edward Scissorhands",
+    "Link": "https://www.juungle.net/#/assets/cf8e2a159e6fc67b78119277f1e1b2b6790fd60ea34872868ff84af15c93a691",
+    "Image": "webedwardscissorhands",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Enter the Thunder",
+    "Link": "https://www.juungle.net/#/assets/341c7d72e78e217304b71173616d9272866539648e577a4be03837424c99cf90",
+    "Image": "webenterthethunder",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
