@@ -232,5 +232,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/341c7d72e78e217304b71173616d9272866539648e577a4be03837424c99cf90",
     "Image": "webenterthethunder",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Fight Club",
+    "Link": "https://www.juungle.net/#/assets/00d6c500cf1145e3cfe75850e494cfd7b6b3317d8f98720a133d4a3ffeda3fe7",
+    "Image": "webfightclub",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Frank Booth",
+    "Link": "https://www.juungle.net/#/assets/78f9e140e96c3a2f50cacf9abbdaf6c8c5f6bdfe024f440d7112b2171b752885",
+    "Image": "webfrankbooth",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Frankenstein",
+    "Link": "https://www.juungle.net/#/assets/1c54f6a6206a844a47f2056174e7281a172456544c38a2951d95dd56771dbb21",
+    "Image": "webfrankenstein",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Gamora",
+    "Link": "https://www.juungle.net/#/assets/ed1283f946b604547fb63f4d97b12db537962f60b68c92ceae3f6086e324463a",
+    "Image": "webgamora",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Green Goblin",
+    "Link": "https://www.juungle.net/#/assets/9bab8ffefad05715cdb6326dd0e269fc43caf6477d703a6207cafeabf4508751",
+    "Image": "webgreengoblin",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Handshake",
+    "Link": "https://www.juungle.net/#/assets/053a8a43a3ff86f772d799f55a148550d84b9c5be67969090c96549a58545081",
+    "Image": "webhandshake",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
