@@ -268,5 +268,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/053a8a43a3ff86f772d799f55a148550d84b9c5be67969090c96549a58545081",
     "Image": "webhandshake",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Harlem Heat",
+    "Link": "https://www.juungle.net/#/assets/eb7cca70a9108338f4da114412536b0ef0757697616ad0b5bdc9372c46f058dd",
+    "Image": "webharlemheat",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Heisenberg",
+    "Link": "https://www.juungle.net/#/assets/dc6a90d9d230526c4e08bfba1e2e7dc4c6729323b71561bef73283c0a61dac75",
+    "Image": "webheisenberg",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Highlander",
+    "Link": "https://www.juungle.net/#/assets/8fe7b95f0a286aaaa537320ac4e8b616d2d0cc32da443ce862346a5830190096",
+    "Image": "webhighlander",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Indiana Jones",
+    "Link": "https://www.juungle.net/#/assets/d8b155edccacd33cd9dd4321a141770ac54bfd80f2080f0a8eddd556d0dca031",
+    "Image": "webindianajones",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Iron Man",
+    "Link": "https://www.juungle.net/#/assets/b087308d5eb57097044b621da923a69000e76e784d1ffaad32bee407d4393ae1",
+    "Image": "webironman",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Jay & Silent Bob",
+    "Link": "https://www.juungle.net/#/assets/7e8a11be7b1abe07ac4b16b42b29cef64687cba9c4294386de34173fbbf6d6f2",
+    "Image": "webjayandsilentbob",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
