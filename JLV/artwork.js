@@ -304,5 +304,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/7e8a11be7b1abe07ac4b16b42b29cef64687cba9c4294386de34173fbbf6d6f2",
     "Image": "webjayandsilentbob",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Joaquin - Joker",
+    "Link": "https://www.juungle.net/#/assets/7a05f6d61ba8f763a615a08bf9419e66aa7dfb95dbf6aed79ffac19b18ad48ed",
+    "Image": "webjoaquinjoker",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "John McClane",
+    "Link": "https://www.juungle.net/#/assets/313055d0464baa289f2c7fdf3eeaa9b713020328e680a089f8561e58196b99bb",
+    "Image": "webjohnmcclane",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Kickboxer",
+    "Link": "https://www.juungle.net/#/assets/38eb20e5ac863483d69f25fa1558bdf59b09e3fd572b19cf9389fd860ced7e3c",
+    "Image": "webkickboxer",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Kiddo",
+    "Link": "https://www.juungle.net/#/assets/97295129a7909e352efae3a156fe70bca4c0adcf44f4356f3a5abd22a9b82fb7",
+    "Image": "webkiddo",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Landlady",
+    "Link": "https://www.juungle.net/#/assets/859991235621ab79d3d3b4964c7f0a0a8dd51f6eae1d6fc313b5680a94fa66dd",
+    "Image": "weblandlady",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Lando",
+    "Link": "https://www.juungle.net/#/assets/14e9c381cb3ee33c04b8751c48b386eac0852afab8fe0a1f4f44aa9b0214a1e4",
+    "Image": "weblando",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
