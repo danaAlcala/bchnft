@@ -340,5 +340,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/14e9c381cb3ee33c04b8751c48b386eac0852afab8fe0a1f4f44aa9b0214a1e4",
     "Image": "weblando",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Leeloo",
+    "Link": "https://www.juungle.net/#/assets/65c1750d4ca9734640073c6e8849712e580bdbcb046d5c8d53693ed6596749a8",
+    "Image": "webleeloo",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Leonard Nimoy - Spock",
+    "Link": "https://www.juungle.net/#/assets/b02524a0e7021520e91a09fe9dbca777d544601857a0814132bb9b3f34e79838",
+    "Image": "webleonardnimoyspock",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Loki",
+    "Link": "https://www.juungle.net/#/assets/0bf56e7325c505bf8089d386e712d4814134725e37adb6e8c47d31c6086c6e1e",
+    "Image": "webloki",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Lo-Pan",
+    "Link": "https://www.juungle.net/#/assets/f69376a90f4cff8c08bb3a3cb894097cb4861c3efd61e89864a3e8817e33eeef",
+    "Image": "weblopan",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Lord General",
+    "Link": "https://www.juungle.net/#/assets/ebac36a8bb863220bc612a64a0ebf75f09473f30c5d1cbefb1043080419f86c7",
+    "Image": "weblordgeneral",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Luther",
+    "Link": "https://www.juungle.net/#/assets/ed4562da358360c4408abc28fed682c93664cf5e330d6fc5a221d7c1e3d4056a",
+    "Image": "webluther",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
