@@ -82,5 +82,11 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/7d7c97f63b39723234322c46c8f1415c76ae2d641134f93e16193dc5e6887be9",
     "Image": "webesmeweatherwax",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Harleen Quinzel",
+    "Link": "https://www.juungle.net/#/assets/ffd9fe62a64c097da92da7b2e2e58bcf002531ec75affcd163ec5b36f8f148fe",
+    "Image": "webharleenquinzel",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
