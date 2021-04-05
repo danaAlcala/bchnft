@@ -57,7 +57,7 @@ function updateFromDropDown()
     updateMainTokenID();
     updateJSONURL();
     clearTable();
-    getUSDPrice();
+    getUSDPrice(getData);
     
     console.log(profile);
     console.log(tokenID);
@@ -100,7 +100,7 @@ function BCHtoUSDollars(paramBCH)
     return paramBCH * BCHtoUSD;
 }
 
-function getUSDPrice()
+function getUSDPrice(callback)
 {
     $.getJSON(COINGECKO, function(data)
     {
@@ -170,6 +170,7 @@ function getUSDPrice()
         preferredPrice.innerHTML = "$" + usdPrice.toString() + " = " + bchPrice.toString() + " BCH";
         newSatoshis.innerHTML = "$" + usdPrice.toString() + " = " + satoshiPrice.toString() + " Satoshis";
         dataButton.disabled = false;
+        callback();
     })
 }
 
@@ -302,4 +303,4 @@ function fixAllPrices()
     }
     //setPrice(4837, currentSATOSHIPrices.PHOTOYSHOP);
 }
-getUSDPrice();
+getUSDPrice(getData);
