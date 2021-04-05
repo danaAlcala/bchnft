@@ -274,7 +274,7 @@ function setPrice(paramID, paramPrice)
             
 }
 
-function fixAllPrices()
+function fixAllPrices(callback)
 {
     let setThisSatoshiPrice;
     switch (profile)
@@ -301,6 +301,7 @@ function fixAllPrices()
         setPrice(allMyTokens[i], setThisSatoshiPrice);
         //console.log(allMyTokens[i]);
     }
+    callback()
     //setPrice(4837, currentSATOSHIPrices.PHOTOYSHOP);
 }
 getUSDPrice(getData);
