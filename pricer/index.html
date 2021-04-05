@@ -1,0 +1,38 @@
+<head>
+    <style>
+        table, td {
+          border: 1px solid black;
+        }
+        </style>
+</head>
+
+<body>
+    <label for="dropwdown">Choose an Artist:</label>
+
+    <select id="artistsdropdown" name="artists" id="artists" onchange="updateFromDropDown()">
+      <option value="photoyshop">Photoyshop</option>
+      <option value="jlv">Justin Luis Vargas</option>
+      <option value="lucivay">lucivay</option>
+    </select>
+<p id="USD">1 BCH = $?.??</p>
+<p id="PRICE">$105 = ?.???????? BCH</p>
+<p id="SATOSHIS">$105 = ?.???????? total Satoshis</p>
+<button type="button" onclick="getUSDPrice()">Coingecko</button>
+<br>
+<button type="button" onclick="login()">Log in</button>
+<br>
+<button id="Data" type="button" disabled=true onclick="getData(jsonurl)">Get Data</button>
+<br>
+<table id="myTable">
+    <tr>
+      <td>ID</td>
+      <td>Name</td>
+      <td>Dollar Amount</td>
+      <td><button id="FixAll" type="button" onclick="fixAllPrices()" disabled=true>Fix All</button></td>
+    </tr>
+  </table>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="login.js"></script>
+<script src="code.js"></script>
