@@ -170,7 +170,7 @@ function getUSDPrice(callback)
         preferredPrice.innerHTML = "$" + usdPrice.toString() + " = " + bchPrice.toString() + " BCH";
         newSatoshis.innerHTML = "$" + usdPrice.toString() + " = " + satoshiPrice.toString() + " Satoshis";
         dataButton.disabled = false;
-        callback();
+        callback(jsonurl);
     })
 }
 
