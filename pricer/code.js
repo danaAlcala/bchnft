@@ -168,7 +168,7 @@ function getUSDPrice()
 
         bigMoney.innerHTML = "1 BCH = $" + BCHtoUSD.toString();
         preferredPrice.innerHTML = "$" + usdPrice.toString() + " = " + bchPrice.toString() + " BCH";
-        newSatoshis.innerHTML = "$" + usdPrice.toString() + " = " + Math.floor(satoshiPrice.toFixed).toString() + " Satoshis";
+        newSatoshis.innerHTML = "$" + usdPrice.toString() + " = " + satoshiPrice.toFixed.toString() + " Satoshis";
         dataButton.disabled = false;
     })
 }
