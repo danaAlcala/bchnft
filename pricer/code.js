@@ -139,7 +139,7 @@ function getUSDPrice()
         }
 
         bchPrice = (usdPrice / BCHtoUSD).toFixed(8);
-        satoshiPrice = bchPrice * BCHSATOSHIS;
+        satoshiPrice = (bchPrice * BCHSATOSHIS).toFixed(0);
 
         switch (profile) // update client prices in BCH and Satoshis
         {
