@@ -139,7 +139,7 @@ function getUSDPrice()
         }
 
         bchPrice = (usdPrice / BCHtoUSD).toFixed(8);
-        satoshiPrice = (bchPrice * BCHSATOSHIS).toFixed(0);
+        satoshiPrice = (bchPrice * BCHSATOSHIS);
 
         switch (profile) // update client prices in BCH and Satoshis
         {
@@ -168,7 +168,7 @@ function getUSDPrice()
 
         bigMoney.innerHTML = "1 BCH = $" + BCHtoUSD.toString();
         preferredPrice.innerHTML = "$" + usdPrice.toString() + " = " + bchPrice.toString() + " BCH";
-        newSatoshis.innerHTML = "$" + usdPrice.toString() + " = " + satoshiPrice.toString() + " Satoshis";
+        newSatoshis.innerHTML = "$" + usdPrice.toString() + " = " + satoshiPrice.toFixed(0).toString() + " Satoshis";
         dataButton.disabled = false;
     })
 }
