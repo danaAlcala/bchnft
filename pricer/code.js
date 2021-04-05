@@ -301,7 +301,7 @@ function fixAllPrices(callback)
         setPrice(allMyTokens[i], setThisSatoshiPrice);
         //console.log(allMyTokens[i]);
     }
-    callback(jsonurl)
+    setTimeout(() => { callback(jsonurl); }, 2000);
     //setPrice(4837, currentSATOSHIPrices.PHOTOYSHOP);
 }
 getUSDPrice(getData);
