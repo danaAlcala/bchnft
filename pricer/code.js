@@ -180,7 +180,7 @@ function getNFTData(paramURL)
         receivedJSONdata = data;
         NFTs = receivedJSONdata.nfts;
         let i;
-        for (i=NFTs.length-1; i > 0; i--)
+        for (i=NFTs.length-1; i >= 0; i--)
         {
             let tokenName = NFTs[i].tokenName;
             let NFTID = NFTs[i].id;
