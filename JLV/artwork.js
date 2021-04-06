@@ -376,5 +376,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/ed4562da358360c4408abc28fed682c93664cf5e330d6fc5a221d7c1e3d4056a",
     "Image": "webluther",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Macho Man",
+    "Link": "https://www.juungle.net/#/assets/9ff0e858658d40cafb5cee8ea296dc794735290ae663d079cf5a2125ca967931",
+    "Image": "webmachoman",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Magik",
+    "Link": "https://www.juungle.net/#/assets/3a6644731e828eb849e86e947f9c108a0dcad97bcc71b6a95cf5a60fb9411b25",
+    "Image": "webmagik",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Maximus",
+    "Link": "https://www.juungle.net/#/assets/2f5b6c05b0cf6b2c49640530d4c3b81b7020379322ab60376e5385ce48a235c3",
+    "Image": "webmaximus",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Modern Problems",
+    "Link": "https://www.juungle.net/#/assets/0f77d68e5f0da435d7cfb1efe9a3cc7c8e6bcf998b0ef632c85a3478a238dbbc",
+    "Image": "webmodernproblems",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Muhammad Ali",
+    "Link": "https://www.juungle.net/#/assets/7fd97a2006764bc72ab49880df37f8fd5f3c85242555c61595251144ea33ddb4",
+    "Image": "webmuhammadali",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Nacho Libre",
+    "Link": "https://www.juungle.net/#/assets/0ce4b553b44a9bca8fbc555ff1e74cc36db7a8c3e21f74135af2335dd7d3eb1f",
+    "Image": "webnacholibre",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
