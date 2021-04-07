@@ -412,5 +412,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/0ce4b553b44a9bca8fbc555ff1e74cc36db7a8c3e21f74135af2335dd7d3eb1f",
     "Image": "webnacholibre",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Napoleon Dynamite",
+    "Link": "https://www.juungle.net/#/assets/09685e4a99a46acdca75f84e0ac3117034bf0560ebef15f788ea5aba1df94085",
+    "Image": "webnapoleondynamite",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Neverending Metal",
+    "Link": "https://www.juungle.net/#/assets/b171c5ae697409eac888618fa86a1a51f0fa86d82b95e34795851c49e11fab08",
+    "Image": "webneverendingmetal",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Oldboy",
+    "Link": "https://www.juungle.net/#/assets/a2d69f249f645592954a080825ee0fd2a9eaa25831640efcc49dba6f0ac2e9bd",
+    "Image": "weboldboy",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Pan",
+    "Link": "https://www.juungle.net/#/assets/1e6705192979b55f06c41768b3226b490f928eed0cd7e227ee12c822e0247e03",
+    "Image": "webpan",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Pinhead",
+    "Link": "https://www.juungle.net/#/assets/929829ea8f6c838fa4426ba5b978b5e45590a9710ce92893783a3a523f8b80fc",
+    "Image": "webpinhead",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Porkins",
+    "Link": "https://www.juungle.net/#/assets/28c400511e050b5989f0c0011a931140ad2199837f2b45b5062beeacea45f8c8",
+    "Image": "webporkins",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
