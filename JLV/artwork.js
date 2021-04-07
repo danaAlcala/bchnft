@@ -355,13 +355,13 @@ const ARTWORK = [
   },
   {
     "Name": "Loki",
-    "Link": "https://www.juungle.net/#/assets/0bf56e7325c505bf8089d386e712d4814134725e37adb6e8c47d31c6086c6e1e",
+    "Link": "https://www.juungle.net/#/assets/f69376a90f4cff8c08bb3a3cb894097cb4861c3efd61e89864a3e8817e33eeef",
     "Image": "webloki",
     "Action": "Purchase with Bitcoin Cash"
   },
   {
     "Name": "Lo-Pan",
-    "Link": "https://www.juungle.net/#/assets/f69376a90f4cff8c08bb3a3cb894097cb4861c3efd61e89864a3e8817e33eeef",
+    "Link": "https://www.juungle.net/#/assets/0bf56e7325c505bf8089d386e712d4814134725e37adb6e8c47d31c6086c6e1e",
     "Image": "weblopan",
     "Action": "Purchase with Bitcoin Cash"
   },
