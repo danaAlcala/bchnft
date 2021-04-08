@@ -274,7 +274,7 @@ function setPrice(paramID, paramPrice)
     var priceSetCommunication = $.ajax( // This executes when setPrice() executes
             {
                 url: "https://www.juungle.net/api/v1/user/nfts/set_price",
-                headers: JSON.stringify(header),
+                headers: header,
                 type: 'POST',
                 contentType: "application/json",
                 charset: "utf-8",
