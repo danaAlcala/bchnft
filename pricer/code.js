@@ -71,6 +71,10 @@ var BCHtoUSD = 0;
 
 var profile = dropDownBox.value;
 
+function floatToInt (value) { // This truncates the decimal.
+    return value | 0;
+}
+
 function updateFromDropDown()
 {
     profile = dropDownBox.value;
@@ -160,6 +164,8 @@ function getUSDPrice(callback)
 
         bchPrice = (usdPrice / BCHtoUSD).toFixed(8);
         satoshiPrice = bchPrice * BCHSATOSHIS;
+        satoshiPrice = floatToInt(satoshiPrice); /* Hopefully this fixes
+        the fungible satoshis problem. */
 
         switch (profile) // update client prices in BCH and Satoshis
         {
