@@ -448,5 +448,53 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/28c400511e050b5989f0c0011a931140ad2199837f2b45b5062beeacea45f8c8",
     "Image": "webporkins",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Prince",
+    "Link": "https://www.juungle.net/#/assets/e6fe4d924fa000173fc3941d3aa99d97e925928978dc24a57b95361b5852f58d",
+    "Image": "webprince",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Raylan",
+    "Link": "https://www.juungle.net/#/assets/7d6a4e74c370ccac4c05d8f2813d15051abca673d1c05fbe747819eb151efb43",
+    "Image": "webraylan",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Sagat",
+    "Link": "https://www.juungle.net/#/assets/48acfe49ebf5b08b744c05f8db70c955441af19c38978336a90b517ba44ec5f4",
+    "Image": "websagat",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Sho Kusugi",
+    "Link": "https://www.juungle.net/#/assets/8e58562f90a13e8d62071a596146ddbc71ff7e19ef28d717d9de69978b81ae86",
+    "Image": "webshokusugi",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Shooter",
+    "Link": "https://www.juungle.net/#/assets/3c1ce835006eadc0194c5b850102ac929963a2fc3e0be2f6bb80ffc6c0c9ac82",
+    "Image": "webshooter",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Skeletor",
+    "Link": "https://www.juungle.net/#/assets/91461826c3f46453aae50c6cc7c92b8b8e2fcae871adf5eb92d2a7e6502ebd61",
+    "Image": "webskeletor",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Super-stache",
+    "Link": "https://www.juungle.net/#/assets/48fbbb9875c6f625ec274863f5db9804d412f08d26d3e9023591f2ee4b70bcc4",
+    "Image": "websuperstache",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Thanos",
+    "Link": "https://www.juungle.net/#/assets/5616fa86bc99cbd3fe78086a1a6a3e582f43dbca7e981d949fc2c785dec07607",
+    "Image": "webthanos",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
