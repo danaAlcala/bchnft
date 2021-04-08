@@ -7,22 +7,34 @@
 </head>
 
 <body>
-    <label for="dropwdown">Choose an Artist:</label>
+<!-- Dropdown Box - Move this anywhere within the body tags.  -->
+  <label for="dropwdown">Choose an Artist:</label>
+  <select id="artistsdropdown" name="artists" id="artists" onchange="updateFromDropDown()">
+    <option value="photoyshop">Photoyshop</option>
+    <option value="jlv">Justin Luis Vargas</option>
+    <option value="lucivay">lucivay</option>
+  </select>
 
-    <select id="artistsdropdown" name="artists" id="artists" onchange="updateFromDropDown()">
-      <option value="photoyshop">Photoyshop</option>
-      <option value="jlv">Justin Luis Vargas</option>
-      <option value="lucivay">lucivay</option>
-    </select>
+<!-- Price info. Place anywhere in between body tags.  -->
 <p id="USD">1 BCH = $?.??</p>
 <p id="PRICE">$105 = ?.???????? BCH</p>
 <p id="SATOSHIS">$105 = ?.???????? total Satoshis</p>
-<button type="button" onclick="getUSDPrice()">Coingecko</button>
+
+<!-- Coingecko button is bugging out a bit. Refreshing seems to help.  -->
+<button type="button" onclick="getUSDPrice(getData)">Coingecko</button>
 <br>
+
+<!-- Log in to set prices.  -->
 <button type="button" onclick="login()">Log in</button>
 <br>
+
+<!-- Right now Get Data button does a lot. It uses the API to gather info and 
+then displays it in a table that it blits.  -->
 <button id="Data" type="button" disabled=true onclick="getData(jsonurl)">Get Data</button>
 <br>
+
+<!-- I haven't decided on if I want to blit how I do now or switch it to pure
+javascript. As of now, the table gets built/initialized here.  -->
 <table id="myTable">
     <tr>
       <td>ID</td>
@@ -33,6 +45,11 @@
   </table>
 </body>
 
+
+<!-- Pretty sure js files have to be kept at the end here. Also, best to keep
+them in order as well.  -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="login.js"></script>
+
+<!-- ALWAYS throw all of your code together into one file and call it "code". -->
 <script src="code.js"></script>

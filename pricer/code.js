@@ -1,12 +1,22 @@
-const BCHSATOSHIS = 100000000;
+//DEPENDENCIES
+const BCHSATOSHIS = 100000000; /* How many Satoshis are in a BCH */
 
 //API URL Params for NFTs
 const AVAILABLE = "&priceSatoshisSet=true";
-const NOTPURCHASED = "&purchaseTxidUnset=true";
-const MAINUSERID = "&userId=296";
+const NOTPURCHASED = "&purchaseTxidUnset=true"; /*Excludes NFT re-listed 
+by buyers*/
+const MAINUSERID = "&userId=296"; /* Right now you would put your user id here.
+I eventually want to get the login function to also grab the user id so you don't
+have to manually do this. Until then, get your user id and put it here.*/
 
+
+//Coingecko API
 const COINGECKO = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd";
 
+
+// Global variables
+
+// Parent tokens of artists
 var tokenIDs =
 {
     "PHOTOYSHOP": "88dac34fd486cdca5d011c0eed7cae661ebc1bd16df949a6b6e22226de44a024",
@@ -14,6 +24,14 @@ var tokenIDs =
     "lucivay": "454f7411a1a5a1af8e310b478fa8deae24fa4d321c499a11229c16085d1b0553"
 };
 
+
+/* Desired USD per artist. Right now I tack on the extra five due to volatility.
+It just makes it so I don't have to constantly change the price. Eventually
+my goal is to be able to set up a server that automatically pings the API over
+time. This will allow me to keep the price closer to the actual desired price.
+For example: Instead of $105, I might be able to set it to $101 or maybe even 
+$100.25, depending on how OK it is to hammer the server while still respecting
+the ping limits. */
 var currentUSDPrices =
 {
     "PHOTOYSHOP": "105.00",
@@ -21,6 +39,7 @@ var currentUSDPrices =
     "lucivay": "155.00"
 }
 
+/* This initializes the object that converts desired USD to BCH */
 var currentBCHPrices =
 {
     "PHOTOYSHOP": "",
@@ -28,6 +47,7 @@ var currentBCHPrices =
     "lucivay": ""
 }
 
+/* This initializes the object that converts desired BCH to Satoshis */
 var currentSATOSHIPrices =
 {
     "PHOTOYSHOP": "",
@@ -35,7 +55,7 @@ var currentSATOSHIPrices =
     "lucivay": ""
 }
 
-var dropDownBox = document.getElementById("artistsdropdown");
+var dropDownBox = document.getElementById("artistsdropdown"); 
 
 var allMyTokens = [];
 
