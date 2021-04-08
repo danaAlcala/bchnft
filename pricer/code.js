@@ -59,7 +59,7 @@ var dropDownBox = document.getElementById("artistsdropdown");
 
 var allMyTokens = [];
 
-var receivedJSONdata;
+var receivedJSONdata;// I need to find a better name for this one.
 var NFTs;
 
 var tokenID = tokenIDs.PHOTOYSHOP;
@@ -274,7 +274,7 @@ function setPrice(paramID, paramPrice)
     var priceSetCommunication = $.ajax( // This executes when setPrice() executes
             {
                 url: "https://www.juungle.net/api/v1/user/nfts/set_price",
-                headers: header,
+                headers: JSON.stringify(header),
                 type: 'POST',
                 contentType: "application/json",
                 charset: "utf-8",
@@ -315,6 +315,7 @@ function fixAllPrices(callback)
                 break;
             }
     }
+    /* I need to set this to only fire setPrice if a certain condition is met. */
     let i;
     for (i=0; i < allMyTokens.length; i++)
     {
