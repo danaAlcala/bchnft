@@ -468,9 +468,9 @@ const ARTWORK = [
     "Action": "Purchase with Bitcoin Cash"
   },
   {
-    "Name": "Sho Kusugi",
-    "Link": "https://www.juungle.net/#/assets/8e58562f90a13e8d62071a596146ddbc71ff7e19ef28d717d9de69978b81ae86",
-    "Image": "webshokusugi",
+    "Name": "Sho Kosugi",
+    "Link": "https://www.juungle.net/#/assets/c71d1edf1d46eef405bb0f37ed3d419a855c338b6818b3f30207f3c88485ed71",
+    "Image": "webshokosugi",
     "Action": "Purchase with Bitcoin Cash"
   },
   {
