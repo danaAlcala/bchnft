@@ -496,5 +496,59 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/5616fa86bc99cbd3fe78086a1a6a3e582f43dbca7e981d949fc2c785dec07607",
     "Image": "webthanos",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "The Bride",
+    "Link": "https://www.juungle.net/share/aefd00d2d10a84e6760319ad330ef743889b2244b7f5efab51a379c3d588b2da",
+    "Image": "webthebride",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "The Child",
+    "Link": "https://www.juungle.net/share/25473bc2d4264ffd7a54556c948fd387c054800ea8f114b9b5dcd446fbbba3ec",
+    "Image": "webthechild",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "The Rock",
+    "Link": "https://www.juungle.net/share/712d2aa84a68d04359ede6f95f379ca2e829336ff9ab423204eff87ea47eeef2",
+    "Image": "webtherock",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "They Live Mashup",
+    "Link": "https://www.juungle.net/share/ed9c7ef4eb40c6300ef99b8856448f16abe0e4e2ad49b91126744f18f1a9f285",
+    "Image": "webtheylivemashup",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Thor",
+    "Link": "https://www.juungle.net/share/3e6a3db9577566492ced1396f82242520c32bd16fd4298bc4a5fe31dc4e58596",
+    "Image": "webthor",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "TMNT",
+    "Link": "https://www.juungle.net/share/2ad478adc504a2c729dcd515eac60843ac76a098e262a6fae1c519dab34ae2c2",
+    "Image": "webtmnt",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Tyler Durden",
+    "Link": "https://www.juungle.net/share/aa9cbf8e7fd2329f7f6c4af1f157860c1812013909768350a7b6ac4f9b879ca2",
+    "Image": "webtylerdurden",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Wedding Singer",
+    "Link": "https://www.juungle.net/share/a0efa6593bc8af7cd7f1213062e67834ae381df0700c30d8e8123073a14d6745",
+    "Image": "webweddingsinger",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Willy Wonka",
+    "Link": "https://www.juungle.net/share/679560652ae6a8587da300c479300dfa417c408809bf3e5b0d4fe1d01522fe59",
+    "Image": "webwillywonka",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
