@@ -88,5 +88,47 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/#/assets/ffd9fe62a64c097da92da7b2e2e58bcf002531ec75affcd163ec5b36f8f148fe",
     "Image": "webharleenquinzel",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - BCH",
+    "Link": "https://www.juungle.net/share/a511138ee35de2213f39a3e2aa709bb7292bc28e100bb8bfc6208aa64e39e030",
+    "Image": "webyugiohcryptobch",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - Yugi Draws BCH!",
+    "Link": "https://www.juungle.net/share/104ba8f1773cc5fa48dc4ce552e28819a06266af246b737a068eb78e49cd2c95",
+    "Image": "webyugiohcryptoyugibch",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - Yugi Draws DOGE!",
+    "Link": "https://www.juungle.net/share/57b9b391812eb3ad90f8549184d151c1523bad9100f18674b042986785c405ee",
+    "Image": "webyugiohcryptoyugidoge",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - ETC",
+    "Link": "https://www.juungle.net/share/65ca5a0614783042726545600dc14199f633baa12b95b9922234a0277d6d9fbf",
+    "Image": "webyugiohcryptoetc",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - NANO",
+    "Link": "https://www.juungle.net/share/809148b68c1c273d0f783f0ad9248f88a4f71efd5ac3e7c408f3f7f0276027ad",
+    "Image": "webyugiohcryptonano",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - RVN",
+    "Link": "https://www.juungle.net/share/809148b68c1c273d0f783f0ad9248f88a4f71efd5ac3e7c408f3f7f0276027ad",
+    "Image": "webyugiohcryptorvn",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Crypto Collection - UNI",
+    "Link": "https://www.juungle.net/share/1dfe3c0233cd84de5e63a601ba9060fba5196b45bd801b5dd039ec50cde15a0e",
+    "Image": "webyugiohcryptouni",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
