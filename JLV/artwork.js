@@ -550,5 +550,41 @@ const ARTWORK = [
     "Link": "https://www.juungle.net/share/679560652ae6a8587da300c479300dfa417c408809bf3e5b0d4fe1d01522fe59",
     "Image": "webwillywonka",
     "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Aaliyah",
+    "Link": "https://www.juungle.net/share/b686e496a3f0fe9586e377ca38c21e0a2c7753dec6c6fc8171e04fcb773df389",
+    "Image": "webb686e496a3f0fe9586e377ca38c21e0a2c7753dec6c6fc8171e04fcb773df389",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Amy Winehouse",
+    "Link": "https://www.juungle.net/share/a68631897b2f833a1ffc43242f238a1950871a3feb96496a8c0a60f666825f27",
+    "Image": "weba68631897b2f833a1ffc43242f238a1950871a3feb96496a8c0a60f666825f27",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Bob Marley",
+    "Link": "https://www.juungle.net/share/6a2228e076894b47132f8c39abf225f65776473a08c1c19249135b6a85d23983",
+    "Image": "web6a2228e076894b47132f8c39abf225f65776473a08c1c19249135b6a85d23983",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Chester Bennington",
+    "Link": "https://www.juungle.net/share/fd2ebfd2abf0afe23355ddcce43f470311acdce969bdb67932c4211a9499627a",
+    "Image": "webfd2ebfd2abf0afe23355ddcce43f470311acdce969bdb67932c4211a9499627a",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Chris Cornell",
+    "Link": "https://www.juungle.net/share/b5f94a8339300f5c5bb958cf914eb32e37e35793032b9aaa9541a8cd150bd68b",
+    "Image": "webb5f94a8339300f5c5bb958cf914eb32e37e35793032b9aaa9541a8cd150bd68b",
+    "Action": "Purchase with Bitcoin Cash"
+  },
+  {
+    "Name": "Zatanna",
+    "Link": "https://www.juungle.net/share/d60014e1f3356ee87ac316a971d7b567d72ddfbec9985b503f6b73ab71a73d08",
+    "Image": "webd60014e1f3356ee87ac316a971d7b567d72ddfbec9985b503f6b73ab71a73d08",
+    "Action": "Purchase with Bitcoin Cash"
   }
 ]
