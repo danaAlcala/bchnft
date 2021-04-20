@@ -36,7 +36,7 @@ var currentUSDPrices =
 {
     "PHOTOYSHOP": "105.00",
     "JLV": "155.00",
-    "lucivay": "155.00"
+    "lucivay": "80.00"
 }
 
 /* This initializes the object that converts desired USD to BCH */
