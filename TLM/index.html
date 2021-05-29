@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Pocket Aliens</title>
+    <title>TLM Miner</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="dark light">
@@ -39,19 +39,7 @@
     <p><button class="button" id="claim" onclick="Alien.doClaim()" disabled="disabled">Claim</button> <span
             id="countdown">&nbsp;</span></p>
     <div class="response">&nbsp;<span id="response"></span></div>
-    <p><button class="button" id="donate" onclick="Alien.doShowDonate()">Tip Jar</button></p>
-    <div class="overlay" id="donate-form">
-        <div class="form-box">
-            <div class="note">If you find this useful please donate to help fund further development.</div><input
-                id="amount" type="number" min="0" value="1"><label for="amount" class="note-label">WAX</label><br>
-            <div class="control-box"><button class="button" id="donateOk" onclick="Alien.doDonate()">OK</button> <button
-                    class="button" id="donateCancel" onclick="Alien.doHideDonate()">Cancel</button></div>
-        </div>
-    </div>
-    <div class="overlay" id="nft">
-        <div class="nft-box" onclick='document.getElementById("nft").style.display="none"'><img id="nft-img"
-                src="assets/a1b18043310a200a68b6.png"></div>
-    </div>
+    
 </body>
 
 </html>
