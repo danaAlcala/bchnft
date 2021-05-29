@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>TLM Miner</title>
+    <script defer="defer" src="main.js"></script>
+</head>
+
+<body>
+    <div class="box"><button class="button" id="login" onclick="Alien.login()" disabled="disabled">Login</button>
+        <div class="login-box">
+            <div><span>Account: </span><span id="loginresponse">&nbsp;</span></div>
+            <div><span>Balance: </span><span id="balance">&nbsp;</span></div>
+        </div>
+    </div>
+    <p><input type="checkbox" id="enableSound" onclick="Alien.enableSound()"> <label for="enableSound">Enable
+            Sound</label></p>
+    <div style="display:flex;align-items:stretch">
+        <div><button class="button" id="mine" onclick="Alien.doMine()">Mine</button></div>
+        <div class="response" style="flex-grow:1">
+            <div id="mine-result"></div>
+        </div>
+    </div>
+    <p><button class="button" id="claim" onclick="Alien.doClaim()" disabled="disabled">Claim</button> <span
+            id="countdown">&nbsp;</span></p>
+    <div class="response">&nbsp;<span id="response"></span></div>
+</body>
+
+</html>
