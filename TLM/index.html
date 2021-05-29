@@ -2,8 +2,22 @@
 <html lang="en">
 
 <head>
-    <title>TLM Miner</title>
-    
+    <title>Pocket Aliens</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/c9e663517d4d17555fda.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/5749c2e2edcf667e8385.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/226becab67825d595754.png">
+    <link rel="manifest" href="assets/673f5833fe4cee53c33f.webmanifest" crossorigin="use-credentials">
+    <link rel="mask-icon" href="assets/1549d1eb0512264a8136.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/a7757cd821a64b9e6c86.css">
+    <link rel="stylesheet" href="assets/d1af7fcf40cebaa12969.css">
+    <script defer="defer" src="main.js"></script>
 </head>
 
 <body>
@@ -17,13 +31,27 @@
             Sound</label></p>
     <div style="display:flex;align-items:stretch">
         <div><button class="button" id="mine" onclick="Alien.doMine()">Mine</button></div>
-        <div class="response" style="flex-grow:1">
+        <div class="response" style="flex-grow:1"><img id="spinner" src="assets/bc97e91871c4098bd055.svg" alt="working"
+                hidden>
             <div id="mine-result"></div>
         </div>
     </div>
     <p><button class="button" id="claim" onclick="Alien.doClaim()" disabled="disabled">Claim</button> <span
             id="countdown">&nbsp;</span></p>
     <div class="response">&nbsp;<span id="response"></span></div>
+    <p><button class="button" id="donate" onclick="Alien.doShowDonate()">Tip Jar</button></p>
+    <div class="overlay" id="donate-form">
+        <div class="form-box">
+            <div class="note">If you find this useful please donate to help fund further development.</div><input
+                id="amount" type="number" min="0" value="1"><label for="amount" class="note-label">WAX</label><br>
+            <div class="control-box"><button class="button" id="donateOk" onclick="Alien.doDonate()">OK</button> <button
+                    class="button" id="donateCancel" onclick="Alien.doHideDonate()">Cancel</button></div>
+        </div>
+    </div>
+    <div class="overlay" id="nft">
+        <div class="nft-box" onclick='document.getElementById("nft").style.display="none"'><img id="nft-img"
+                src="assets/a1b18043310a200a68b6.png"></div>
+    </div>
 </body>
-<script defer="defer" src="main.js"></script>
+
 </html>
